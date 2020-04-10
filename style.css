@@ -592,7 +592,7 @@ aside{
 
 .partners{
 	margin-top: 64px;
-	margin-bottom: 64px;
+
 	background-color: #ffffff;
 }
 .partners_width{
@@ -603,6 +603,80 @@ aside{
 .partners_img a.handmade:before{
 	display: inline-block;
 	content: "";
+	background-image: url("./images/logo_partner1_03.png");
+	width: 89px;
+	height: 65px;
 
+}
 
+.partners_img a.montain:before{
+	display: inline-block;
+	content: "";
+	background-image: url("./images/logo_montain_08.png");
+	width: 98px;
+	height: 58px;
+
+}
+
+.partners_img a.collection:before{
+	display: inline-block;
+	content: "";
+	background-image: url("./images/logo_collection_03.png");
+	width: 127px;
+	height: 72px;
+
+}
+
+.partners_img a.mountainbike:before{
+	display: inline-block;
+	content: "";
+	background-image: url("./images/logo_mountainbike_05.png");
+	width: 96px;
+	height: 72px;
+
+}
+
+.partners_img a.vintage:before{
+	display: inline-block;
+	content: "";
+	background-image: url("./images/logo_vintage_13.png");
+	width: 89px;
+	height: 65px;
+
+}
+
+.partners_img{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.blok_registr{
+	padding-top: 103px;
+	margin-bottom: 100px;
+	background-color: #f5f5f5;
+}
+
+.blok_registr_inside{
+	max-width: 671px;
+	margin: auto;
+}
+
+.blok_registr_inside h3{
+	font-size: 30px;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 800;
+
+}
+
+.blok_registr_inside p{
+	font-size: 16px;
+	text-align: center;
+	color: #898989;
+	line-height: 21px;
+	margin-top: 44px;
+	font-family: 'Nunito Sans';
+	font-weight: normal;
 }
